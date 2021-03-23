@@ -1,5 +1,5 @@
-## 기본계산기
-def add(a, b):
+## 계산기
+def sum(a, b):
 	return a+b
 
 def subtract(a, b):
@@ -8,8 +8,12 @@ def subtract(a, b):
 def multiply(a, b):
 	return a*b
 
-def divide(a, b):
+def divide_new(a, b):
 	return a/b
 
 def get_Median(a, b):
 	return (a*b)/2
+
+def get_Remainder(a, b):
+	return a//b
+
